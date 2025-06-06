@@ -1,59 +1,70 @@
-# Third year mini project by our team- NEXUS4
+Third Year Mini Project by Team NEXUS4
 
-# Smart Specs for the Visually Impaired
+Smart Glasses for the Visually Impaired
 
-This is a wearable device built using the ESP32-CAM to assist visually impaired people by detecting nearby objects and announcing them through audio feedback.
+This project presents a wearable smart glasses system built around the ESP32-CAM platform, designed to aid visually impaired individuals by detecting nearby objects and providing audio notifications in real time.
 
-## 👓 Features
+👓 Key Features
 
-- Real-time object detection using ESP32-CAM
-- Audio output for detected objects
-- Battery-powered wearable design
-- Alerts the user
+Real-time object recognition powered by ESP32-CAM
 
-## 🔧 Hardware Used
+Voice announcements of detected objects for user awareness
 
-- ESP32-CAM
-- Rechargeable Li-ion Battery(3000Mah)
-- Charging module (TP4056)
-- Booster module(MT3608)
-- Mini Audio Amplifier (MAX98357A)
--  Speaker(4ohm 5W)
-- OLED Display (optional)
+Portable design powered by a rechargeable battery
 
-## 💻 Software & Tools
+Provides immediate alerts to assist navigation and safety
 
-- Arduino IDE
-- Edge Impulse (for object detection model)
-- GitHub
-- Libraries used:
-  WiFi.h 
- WebServer.h (or ESPAsyncWebServer.h) 
- esp_camera.h
- esp_timer.h etc..
+🔧 Components Used
 
+ESP32-CAM module
 
-## 🛠️ How It Works
+3000mAh Rechargeable Li-ion Battery
 
-1. The ESP32-CAM captures video input.
-2. A custom-trained model detects objects in real-time.
-3. The detected object's name is sent to an amplifier and played through a speaker.
+TP4056 Battery Charging Module
 
-## 📈 Future Enhancements:
+MT3608 DC-DC Step-up Booster
 
-Raspberry Pi Integration for enhancing processing power, enabling real-time object detection, facial recognition, and OCR-based text reading.
+MAX98357A Mini Audio Amplifier
 
-Integration with ultrasonic or LiDAR sensors for depth perception.
+4Ω 5W Speaker
 
-Uses YOLO, Edge Impulse, and cloud-based AI for better accuracy and real-time scene understanding.
+Optional OLED Display for visual feedback
 
-Bluetooth connectivity for real-time updates via smartphone.
+💻 Software & Development Tools
 
-Onboard AI for enhanced scene understanding and environment description.
+Arduino IDE for programming
 
-Converts Braille text into speech using OCR and multilanguage text-to-speech(TTS).
+Edge Impulse platform for training custom detection models
 
-GPS Navigation for providing voice-guided directions, obstacle alerts, and emergency SOS features for out-door mobility
+Version control using GitHub
 
-## 🙏 Acknowledgements
-Special thanks to our guide Prof.Agi George and Ms. Therese Yamuna Mahesh for constant support and technical mentorship throughout this project.
+Libraries including WiFi.h, WebServer.h (or ESPAsyncWebServer.h), esp_camera.h, esp_timer.h, and more
+
+🛠️ System Operation
+
+The ESP32-CAM continuously captures live video data.
+
+A tailored AI model identifies objects within the scene on the fly.
+
+The detected object names are transmitted as audio signals through the amplifier to the speaker, notifying the wearer.
+
+📈 Planned Future Upgrades
+
+Integration with Raspberry Pi to boost computational capability for advanced tasks such as facial recognition and text reading using OCR.
+
+Adding ultrasonic or LiDAR sensors to measure distances for better spatial awareness.
+
+Employing advanced AI frameworks like YOLO and cloud-based models for improved detection accuracy and scene comprehension.
+
+Bluetooth support to enable seamless smartphone connectivity and real-time notifications.
+
+On-device AI to interpret complex environments and narrate surroundings.
+
+OCR-based Braille translation coupled with multi-language text-to-speech functionality.
+
+GPS-enabled navigation providing voice guidance, obstacle warnings, and emergency SOS alerts for enhanced outdoor mobility.
+
+🙏 Gratitude
+
+We extend our heartfelt thanks to our mentor Prof. Agi George and technical advisor Ms. Therese Yamuna Mahesh for their unwavering support, guidance, and encouragement throughout this project journey.
+
