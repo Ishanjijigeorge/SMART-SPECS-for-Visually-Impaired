@@ -1,7 +1,6 @@
-# 👓 Smart Glasses for the Visually Impaired  
-### Third Year Mini Project by Team NEXUS4
+# 👓 **SMART GLASSES FOR THE VISUALLY IMPAIRED**
 
-This project presents a wearable smart glasses system built around the **ESP32-CAM** platform, designed to aid visually impaired individuals by detecting nearby objects and providing audio notifications in real time.
+### 🎓 Third Year Mini Project by Team NEXUS4
 
 ---
 
